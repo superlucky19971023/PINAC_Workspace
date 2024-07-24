@@ -1,13 +1,13 @@
 
 ## ⚠️ Repository Notice ⚠️
 
-**Important Update**: This repository for `PINAC_Workspace` is no longer being actively maintained. We are excited to announce that development is continuing in our new repository, **PINAC_Workspace** from @pinacai
+**Important Update**: This repository is no longer being actively maintained. We are excited to announce that development is continuing in our new repository, **PINAC_Workspace** from @pinacai
 
 
 ## ✨ Development to get better: visit [PINAC Workspace 2.0](https://github.com/pinacai/PINAC_Workspace)
 As we continue to innovate and improve, we've realized that the **Eel framework**, while robust, offers limited features for our ambitious goals. That's why we're thrilled to introduce **PINAC_Workspace-2.0** —a leap forward into a more dynamic and expansive development environment.
 Here's what new to expect:
-- Introduced Next Gen Chat feature, you just need one chat for all your task. Say goodbye to window switching !
+- Introduced Next Gen Chat feature, you just need one chat for all your task. Say goodbye to window switching!
 - A seamless integration of **Electron JS** for a robust core and **React JS** for a responsive frontend, complemented by the power of Python in the backend.
 - Enhanced optimization for **multiplatform compatibility**, ensuring a smooth and consistent experience across all devices.
 - A commitment to **code clarity** and maintainability, making it easier for developers to contribute and collaborate.
@@ -53,35 +53,34 @@ Here's what new to expect:
 
 ## 🚀 Getting Started
 
-This tool is tested on Python `3.10.12`. But this will work very well with other Python versions. But once search on Google for the Python version compatibility with google python modules. But still, if you face any error report it in the `Issues` section.
+> **NOTE**: You need Google Chrome to be installed on your device.
 
-- **Clone the repository:** Get the masterpiece in your local system by running
+1. Clone the Repository
 
-- **Activate Google API:** Unlock the power of Google API by following <a href="https://github.com/rajeshtechforge/PINAC_Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>. Don't worry; we've got your back! Dive into the Google API Guide for a smooth setup.
+   ```bash
+   git clone https://github.com/RajeshTechForge/PINAC_Workspace.git && cd PINAC_Workspace
+   ```
 
-- **Navigate to the Project:** Step into the heart of PINAC-Workspace by navigating to the project directory: `cd PINAC-Workspace`
+2. Install Python dependencies
 
-- **Obtain Your OpenAI API Key:** Once logged in navigate to <a href="https://platform.openai.com/api-keys">the API Keys section </a> and generate a new key.
- 
-- **Create the .env File** Inside your project's /src/configs directory, create a new file named .env. It's important to note that this file is typically ignored by version control systems (like Git) to prevent accidental exposure of your secret key.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- **Set the Environment Variable:** Open the .env file in a text editor and add the following line, replacing **<YOUR_OPENAI_API_KEY>** with your actual key:
-**OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>**
+3. Now add Google API key by following <a href="https://github.com/rajeshtechforge/PINAC_Workspace/blob/main/Google%20API%20Guide.md">our Google API Guide</a>.
 
+4. Now add the OPENAI API KEY by creating a `.env` file in the directory `src/configs/`.
+   ```
+   OPENAI_API_KEY = "Place your API Key here"
+   ```
+5. Once you've embarked on this exciting journey, run the `main.py` file and let the adventure begin! Connect to your Google Apps by clicking the **Sign Up** Button.
 
-- **Prepare Your Machine**: Create the **Virtual Environment** by the name `venv` and activate it by running
-  ```
-  source venv/bin/activate
-  ```
-  Hey, your workspace is ready! Now just install dependencies by running the command 
-  ```
-  pip install -r requirements.txt
-  ```
-  
-- **Launch Your Experience**: Once you've embarked on this exciting journey, run the `main.py` file and let the adventure begin! Connect to your Google Apps by clicking the **Sign Up** Button.
 
 ## 📄 License
 This project is licensed under the <a href="https://github.com/RajeshTechForge/PINAC_Workspace/blob/main/LICENSE">**GPL-3.0 license**</a>
+
+## 🌐 Support
+If you have any support questions or to report issues, please file an issue through the GitHub issue tracker associated with the repository.
 
 ## 🤖 Contributors
 PINAC-Workspace is flourishing under the care and contribution of a GitHub Community. Thanks to all our contributors
